@@ -1,0 +1,22 @@
+Source: peg
+Section: devel
+Priority: optional
+Maintainer: Giulio Paci <giuliopaci@gmail.com>
+Build-Depends: @cdbs@
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/cgit/collab-maint/peg.git
+Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/peg.git
+Homepage: http://piumarta.com/software/peg/
+
+Package: peg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: recursive-descent parser generators for C
+ This package provides peg and leg, two utilities that read a Parsing
+ Expression Grammar (PEG) and generate a recursive-descent parser for
+ it.
+ .
+ Unlike lex and yacc, peg and leg support unlimited backtracking,
+ provide ordered choice as a means for disambiguation, and can combine
+ scanning (lexical analysis) and parsing (syntactic analysis) into a
+ single activity.

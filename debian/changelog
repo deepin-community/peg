@@ -1,0 +1,53 @@
+peg (0.1.18-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:48:19 +0800
+
+peg (0.1.18-1) unstable; urgency=low
+
+  * Import Upstream version 0.1.18.
+  * Update copyright.
+  * Refresh copyright_hints.
+
+ -- Giulio Paci <giuliopaci@gmail.com>  Sun, 24 Jul 2016 13:48:10 +0200
+
+peg (0.1.15-2) unstable; urgency=medium
+
+  * Bump Standards-Version to 3.9.8.
+    No changes needed.
+  * Update Vcs-* fields.
+  * Refresh copyright_hints.
+  * Rename "public domain" into "public-domain" in copyright.
+
+ -- Giulio Paci <giuliopaci@gmail.com>  Tue, 10 May 2016 00:41:47 +0200
+
+peg (0.1.15-1) unstable; urgency=low
+
+  * Imported Upstream version 0.1.15
+
+ -- Giulio Paci <giuliopaci@gmail.com>  Fri, 10 Jan 2014 01:14:42 +0100
+
+peg (0.1.14-1) unstable; urgency=low
+
+  * Imported Upstream version 0.1.14.
+  * Move from experimental to unstable.
+  * Drop debian/manpages.
+    (Upstream makefile now takes care of installing the manpages, so it
+    is no longer needed)
+  * Drop 1001_manpage_fixes.patch.
+  * Refresh 2001_makefile_configuration.patch.
+  * Refresh 2002_examples_fixes.patch.
+  * Update copyright.
+  * Bump Standards-Version to 3.9.5.
+    (No changes required)
+  * Add Vcs-Git and Vcs-Browser fields.
+
+ -- Giulio Paci <giuliopaci@gmail.com>  Mon, 02 Dec 2013 10:58:15 +0100
+
+peg (0.1.9-1) experimental; urgency=low
+
+  * Initial release.
+    Closes: #666224.
+
+ -- Giulio Paci <giuliopaci@gmail.com>  Thu, 19 Jul 2012 03:46:09 +0200
